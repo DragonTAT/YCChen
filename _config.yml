@@ -1,0 +1,22 @@
+# 站点配置
+title: Yingchaun 的作品集
+description: 打造智能化前端体验 · MIS & OSCM 本科生
+url: "https://DragonTAT.github.io"
+baseurl: ""       # 根目录部署
+
+theme: minima    # 最小主题，仅用布局体系，不用样式
+
+enabled_plugins:
+  - jekyll-feed
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# 自定义导航链接
+nav:
+  - title: 首页
+    url: /
+  - title: 项目集
+    url: /projects/
